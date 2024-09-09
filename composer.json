@@ -1,0 +1,24 @@
+{
+    "name": "aluno/new-php-unit",
+    "description": "teste unitario com PHP",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+"autoload-dev": {
+    "psr-4": {
+        "tests\\": "tests/"
+    }
+},
+
+    "authors": [
+        {
+            "name": "DUDA E ANDRESSA"
+        }
+    ],
+    "phpunit/php-code-coverage":"^ 4.0.3",
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
